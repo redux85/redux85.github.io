@@ -7,14 +7,15 @@ body{
   background-image: url(../img/flatiron.png);
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
 }
 
 h1{
   font-size: 70px;
   font-weight: bold;
+  color: white;
 }
 
-.landing p{
+.cta{
   font-size: 18px;
+  color: white;
 }
