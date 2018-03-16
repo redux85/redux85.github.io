@@ -34,3 +34,10 @@ h3{
   font-size: 18px;
   color: white;
 }
+
+.footer{
+  background-color: dimgray;
+  color: white;
+  font-size: 11px;
+  text-align: left;
+}
