@@ -3,16 +3,31 @@ body{
   font-family: helvetica;
 }
 
-.landing{
+.banner{
   background-image: url(../img/flatiron.png);
   background-repeat: no-repeat;
   background-size: cover;
+  color: white
 }
+
 
 h1{
   font-size: 70px;
   font-weight: bold;
-  color: white;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.info p{
+  font-size: 14px;
 }
 
 .cta{
