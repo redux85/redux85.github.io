@@ -1,0 +1,20 @@
+body{
+  text-align: center;
+  font-family: helvetica;
+}
+
+.landing{
+  background-image: url(../img/flatiron.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+h1{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.landing p{
+  font-size: 18px;
+}
