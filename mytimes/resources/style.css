@@ -1,0 +1,81 @@
+/* generic styles */
+
+a{
+  color: black;
+}
+
+/* header */
+
+header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: black solid 1px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  flex-grow: 1;
+  border: black solid 1px;
+}
+
+.logo span{
+  color: mediumaquamarine;
+  padding: 10px;
+}
+
+nav{
+  padding-right: 40px;
+}
+
+nav span{
+display: inline-block;
+padding: 20px 10px;
+}
+
+/* main content */
+
+.main, .column, .img, .txt{
+  border: black solid 1px;
+
+}
+
+.main{
+  display: flex;
+  justify-content: between;
+  padding-top: 116px;
+  margin: 0px 60px 78px;
+}
+
+.column{
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.img.cookie{
+  height: 240px;
+  width: 240px;
+
+}
