@@ -43,7 +43,7 @@ nav span{
 
 
 /* Our Mission */
-.mission{
+#mission{
   display: flex;
   align-items: center;
   height: 700px;
@@ -63,7 +63,7 @@ nav span{
 }
 
 /* Tea of the Month */
-.menu{
+#menu{
   position:relative;
   top: 62px;
   padding-top: 50px;
@@ -82,7 +82,7 @@ nav span{
 
 /* Locations */
 
-.locations{
+#locations{
   background-image: url("img/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
@@ -106,14 +106,14 @@ nav span{
 
 /* Contact */
 
-.contact{
+#contact{
   margin: 0 auto;
   position: relative;
   top: 62px;
   height: 200px;
 }
 
-.copyright{
+#copyright{
   position: relative;
   top: 62px;
   margin-top: 20px;
