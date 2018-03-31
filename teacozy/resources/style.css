@@ -1,7 +1,5 @@
 /* generic styles */
 body{
-  display: flex;
-  justify-content: center;
   font-family: "helvetica", sans-serif;
   font-size: 22px;
   color: seashell;
@@ -12,6 +10,11 @@ body{
 
 a{
   color: seashell;
+}
+
+h2,h4{
+  margin: 0;
+  padding: 10px;
 }
 
 /* header */
@@ -43,6 +46,7 @@ nav span{
   padding: 10px 20px;
 } /* Q: Why the need for display: inline-block since they are span elements and by defaults show inline. */
 
+
 /* Our Mission */
 .mission{
   display: flex;
@@ -51,6 +55,7 @@ nav span{
   width: 1200px;
   position: relative;
   top: 62px;
+  margin: 0 auto;
   background-image: url("img/img-mission-background.jpg");
 }
 
@@ -63,7 +68,23 @@ nav span{
   width: 100%;
 }
 
-h2,h4{
-  margin: 0;
+/* Tea of the Month */
+.menu{
+  position:relative;
+  top: 62px;
+  padding-top: 50px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.selection{
+}
+
+.item{
+  display: inline-block;
   padding: 10px;
+}
+.item img{
+  height: 200px;
+  width: 300px;
 }
