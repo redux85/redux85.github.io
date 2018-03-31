@@ -1,5 +1,7 @@
 /* generic styles */
 body{
+  display: flex;
+  justify-content: center;
   font-family: "helvetica", sans-serif;
   font-size: 22px;
   color: seashell;
@@ -18,9 +20,12 @@ header{
   display: flex;
   border-bottom: 1px solid seashell;
   height: 69px;
+  top: 0;
+  z-index: 1;
   align-items: center;
   position: fixed;
   width: 100%;
+  background-color: black;
 }
 
 .logo{
@@ -36,4 +41,29 @@ header{
 nav span{
   display: inline-block;
   padding: 10px 20px;
+} /* Q: Why the need for display: inline-block since they are span elements and by defaults show inline. */
+
+/* Our Mission */
+.mission{
+  display: flex;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  top: 62px;
+  background-image: url("img/img-mission-background.jpg");
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  height: 123px;
+  width: 100%;
+}
+
+h2,h4{
+  margin: 0;
+  padding: 10px;
 }
