@@ -2,70 +2,79 @@
 <html>
 <head>
   <title> Secret Agent Supply </title>
-  <link href="resources/reset.css" rel="stylesheet" type="text/css">
-  <link href="resources/style.css" rel="stylesheet" type="text/css">
+  <link href="resources/css/reset.css" rel="stylesheet" type="text/css">
+  <link href="resources/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
   <!-- Logo section -->
 
   <header>
-    <img src="resources/img/logo.png" alt="logo">
-    <span> SECRET AGENT SUPPLY INC. </span>
+    <div class="container">
+      <img src="resources/img/logo.png" alt="logo">
+      <span> SECRET AGENT SUPPLY INC. </span>
+    </div>
   </header>
 
   <!-- new product highlight section -->
 
   <div id="highlight">
-    <div class="newproduct">
-      <h2> NEW ARRIVAL </h2>
-      <h1> SPORT BIKES AND MOTORCYCLES </h1>
+    <div class="container">
+      <div class="newproduct">
+        <h2> NEW ARRIVAL </h2>
+        <h1> SPORT BIKES AND MOTORCYCLES </h1>
+      </div>
     </div>
   </div>
 
 <!-- menu -->
 
   <div id="menu">
-    <span> Eyewear </span>
-    <span> Apparel </span>
-    <span> Gadgets </span>
-    <span> Vehicles </span>
-    <span> Glasses </span>
-    <span> Contact </span>
+    <div class="container">
+      <span> Eyewear </span>
+      <span> Apparel </span>
+      <span> Gadgets </span>
+      <span> Vehicles </span>
+      <span> Glasses </span>
+      <span> Contact </span>
+    </div>
   </div>
 
 <!-- main product & info section -->
 
   <main>
-    <div class="products">
-      <span>
-        <img src="resources/img/pen.png">
-        <p> Exploding Pen </p>
-      </span>
-      <span>
-        <img src="resources/img/watch.png">
-        <p> Cellular Watch </p>
-      </span>
-      <span>
-        <img src="resources/img/glasses.png">
-        <p> Thermal Glasses </p>
-      </span>
-    </div>
-
-    <div class=info>
-      <span>
-        <p class="title"> Location </p>
-        <p class="details"> -47.12345, 84.67890 </p>
-      </span>
-      <span>
-        <p class="title"> Hours </p>
-        <p class="details"> 0800 - 1800 </p>
-      </span>
+    <div class="container">
+      <div id="products">
+        <div>
+          <img src="resources/img/pen.png">
+          <p> Exploding Pen </p>
+        </div>
+        <div>
+          <img src="resources/img/watch.png">
+          <p> Cellular Watch </p>
+        </div>
+        <div>
+          <img src="resources/img/glasses.png">
+          <p> Thermal Glasses </p>
+        </div>
+      </div>
+      <div id=info>
+        <div>
+          <p class="title"> Location </p>
+          <p class="details"> -47.12345, 84.67890 </p>
+        </div>
+        <div>
+          <p class="title"> Hours </p>
+          <p class="details"> 0800 - 1800 </p>
+        </div>
+      </div>
     </div>
   </main>
 
   <footer>
-    <p> Copyright Secret Agent Supply Inc </p>
+    <div class="container">
+      <span> Copyright Secret Agent Supply Inc </span>
+    </div>
   </footer>
 
 </body>
