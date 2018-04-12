@@ -37,7 +37,7 @@ header img{
 }
 
 .newproduct{
-  display: block;
+  display: block; <!-- useless -->
   width: 20rem;
   padding: 2rem 0 2rem 3rem;
   background-color: black;
@@ -68,7 +68,7 @@ header img{
   padding: 0.75rem 0;
 }
 
-/*menu 1024px up */
+/*menu 1024px down */
 
 #menu1024down{
   background-color: firebrick;
